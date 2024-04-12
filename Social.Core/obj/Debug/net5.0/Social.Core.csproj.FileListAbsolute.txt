@@ -1,0 +1,11 @@
+E:\SocialMediaWebAPISolution\Social.Core\bin\Debug\net5.0\Social.Core.deps.json
+E:\SocialMediaWebAPISolution\Social.Core\bin\Debug\net5.0\Social.Core.dll
+E:\SocialMediaWebAPISolution\Social.Core\bin\Debug\net5.0\Social.Core.pdb
+E:\SocialMediaWebAPISolution\Social.Core\obj\Debug\net5.0\Social.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\SocialMediaWebAPISolution\Social.Core\obj\Debug\net5.0\Social.Core.AssemblyInfoInputs.cache
+E:\SocialMediaWebAPISolution\Social.Core\obj\Debug\net5.0\Social.Core.AssemblyInfo.cs
+E:\SocialMediaWebAPISolution\Social.Core\obj\Debug\net5.0\Social.Core.csproj.CoreCompileInputs.cache
+E:\SocialMediaWebAPISolution\Social.Core\obj\Debug\net5.0\Social.Core.dll
+E:\SocialMediaWebAPISolution\Social.Core\obj\Debug\net5.0\refint\Social.Core.dll
+E:\SocialMediaWebAPISolution\Social.Core\obj\Debug\net5.0\Social.Core.pdb
+E:\SocialMediaWebAPISolution\Social.Core\obj\Debug\net5.0\ref\Social.Core.dll

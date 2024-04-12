@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Social.Service/1.0.0": {
+        "dependencies": {
+          "Social.Core": "1.0.0"
+        },
+        "runtime": {
+          "Social.Service.dll": {}
+        }
+      },
+      "Social.Core/1.0.0": {
+        "runtime": {
+          "Social.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Social.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Social.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

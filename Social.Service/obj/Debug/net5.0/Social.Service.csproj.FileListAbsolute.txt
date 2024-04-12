@@ -1,0 +1,15 @@
+E:\SocialMediaWebAPISolution\Social.Service\bin\Debug\net5.0\Social.Service.deps.json
+E:\SocialMediaWebAPISolution\Social.Service\bin\Debug\net5.0\Social.Service.dll
+E:\SocialMediaWebAPISolution\Social.Service\bin\Debug\net5.0\Social.Service.pdb
+E:\SocialMediaWebAPISolution\Social.Service\bin\Debug\net5.0\Social.Core.dll
+E:\SocialMediaWebAPISolution\Social.Service\bin\Debug\net5.0\Social.Core.pdb
+E:\SocialMediaWebAPISolution\Social.Service\obj\Debug\net5.0\Social.Service.csproj.AssemblyReference.cache
+E:\SocialMediaWebAPISolution\Social.Service\obj\Debug\net5.0\Social.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\SocialMediaWebAPISolution\Social.Service\obj\Debug\net5.0\Social.Service.AssemblyInfoInputs.cache
+E:\SocialMediaWebAPISolution\Social.Service\obj\Debug\net5.0\Social.Service.AssemblyInfo.cs
+E:\SocialMediaWebAPISolution\Social.Service\obj\Debug\net5.0\Social.Service.csproj.CoreCompileInputs.cache
+E:\SocialMediaWebAPISolution\Social.Service\obj\Debug\net5.0\Social.Service.csproj.CopyComplete
+E:\SocialMediaWebAPISolution\Social.Service\obj\Debug\net5.0\Social.Service.dll
+E:\SocialMediaWebAPISolution\Social.Service\obj\Debug\net5.0\refint\Social.Service.dll
+E:\SocialMediaWebAPISolution\Social.Service\obj\Debug\net5.0\Social.Service.pdb
+E:\SocialMediaWebAPISolution\Social.Service\obj\Debug\net5.0\ref\Social.Service.dll
