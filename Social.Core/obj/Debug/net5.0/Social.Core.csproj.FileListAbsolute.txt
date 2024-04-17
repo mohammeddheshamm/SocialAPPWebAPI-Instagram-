@@ -9,3 +9,5 @@ E:\SocialMediaWebAPISolution\Social.Core\obj\Debug\net5.0\Social.Core.dll
 E:\SocialMediaWebAPISolution\Social.Core\obj\Debug\net5.0\refint\Social.Core.dll
 E:\SocialMediaWebAPISolution\Social.Core\obj\Debug\net5.0\Social.Core.pdb
 E:\SocialMediaWebAPISolution\Social.Core\obj\Debug\net5.0\ref\Social.Core.dll
+E:\SocialMediaWebAPISolution\Social.Core\obj\Debug\net5.0\Social.Core.csproj.AssemblyReference.cache
+E:\SocialMediaWebAPISolution\Social.Core\obj\Debug\net5.0\Social.Core.sourcelink.json

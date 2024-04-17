@@ -17,8 +17,8 @@ namespace SocialMediaWebAPI.Controllers
             _postRepo = postRepo;
         }
 
-        [HttpPost]
-        public async Task<ActionResult> AddNewPost(Post post)
+        [HttpPost] //POST : api/Post
+        public async Task<ActionResult<Post>> AddNewPost(Post post)
         {
             if (post == null)
                 return BadRequest();
@@ -26,11 +26,20 @@ namespace SocialMediaWebAPI.Controllers
             return Ok();
         }
 
-        [HttpGet] //POST : api/Post
+        [HttpGet] // GET : api/Post
         public async Task<ActionResult<IReadOnlyList<Post>>> GetAllPosts()
         {
             var posts = await _postRepo.GetAll();
             return Ok(posts);
+        }
+
+        [HttpGet("id")] // Get : api/Post/id
+        public async Task<ActionResult<Post>> GetPostById(int id)
+        {
+            var post = await _postRepo.GetById(id);
+            if(post == null)
+                return BadRequest();
+            return Ok(post);  
         }
 
     }

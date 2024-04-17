@@ -38,6 +38,24 @@ namespace Social.Repository.Data.Migrations
 
                     b.ToTable("Posts");
                 });
+
+            modelBuilder.Entity("Social.Core.Entity.Story", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("Likes")
+                        .HasColumnType("int");
+
+                    b.Property<string>("StoryUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Stories");
+                });
 #pragma warning restore 612, 618
         }
     }

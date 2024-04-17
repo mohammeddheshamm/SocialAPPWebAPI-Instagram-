@@ -13,3 +13,4 @@ E:\SocialMediaWebAPISolution\Social.Repository\obj\Debug\net5.0\Social.Repositor
 E:\SocialMediaWebAPISolution\Social.Repository\obj\Debug\net5.0\refint\Social.Repository.dll
 E:\SocialMediaWebAPISolution\Social.Repository\obj\Debug\net5.0\Social.Repository.pdb
 E:\SocialMediaWebAPISolution\Social.Repository\obj\Debug\net5.0\ref\Social.Repository.dll
+E:\SocialMediaWebAPISolution\Social.Repository\obj\Debug\net5.0\Social.Repository.sourcelink.json

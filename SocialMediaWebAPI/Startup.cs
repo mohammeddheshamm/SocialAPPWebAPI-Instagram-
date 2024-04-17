@@ -11,6 +11,7 @@ using Microsoft.OpenApi.Models;
 using Social.Core.Repositories;
 using Social.Repository;
 using Social.Repository.Data;
+using Social.Repository.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,6 +41,10 @@ namespace SocialMediaWebAPI
             services.AddDbContext<InstagramDbContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+            });
+            services.AddDbContext<AppIdentityDbContext>(options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("IdentityConnection"));
             });
 
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));

@@ -24,5 +24,6 @@ namespace Social.Repository.Data
         }
 
         public DbSet<Post> Posts { get; set; }
+        public DbSet<Story> Stories { get; set; }
     }
 }
