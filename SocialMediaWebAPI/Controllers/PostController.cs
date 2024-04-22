@@ -11,10 +11,11 @@ namespace SocialMediaWebAPI.Controllers
     public class PostController : BaseApiController
     {
         private readonly IGenericRepository<Post> _postRepo;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public PostController(IGenericRepository<Post> postRepo)
+        public PostController(IUnitOfWork unitOfWork)
         {
-            _postRepo = postRepo;
+            _unitOfWork = unitOfWork;
         }
 
         [HttpPost] //POST : api/Post
@@ -22,21 +23,21 @@ namespace SocialMediaWebAPI.Controllers
         {
             if (post == null)
                 return BadRequest();
-            await _postRepo.AddAsync(post);
+            await _unitOfWork.Repository<Post>().AddAsync(post);
             return Ok();
         }
 
         [HttpGet] // GET : api/Post
         public async Task<ActionResult<IReadOnlyList<Post>>> GetAllPosts()
         {
-            var posts = await _postRepo.GetAll();
+            var posts = await _unitOfWork.Repository<Post>().GetAllAsync();
             return Ok(posts);
         }
 
         [HttpGet("id")] // Get : api/Post/id
         public async Task<ActionResult<Post>> GetPostById(int id)
         {
-            var post = await _postRepo.GetById(id);
+            var post = await _unitOfWork.Repository<Post>().GetByIdAsync(id);
             if(post == null)
                 return BadRequest();
             return Ok(post);  

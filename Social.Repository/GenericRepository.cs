@@ -25,11 +25,11 @@ namespace Social.Repository
         public void Delete(T entity)
             => _context.Set<T>().Remove(entity);
         
-        public async Task<IReadOnlyList<T>> GetAll()
+        public async Task<IReadOnlyList<T>> GetAllAsync()
             => await _context.Set<T>().ToListAsync();
 
 
-        public async Task<T> GetById(int id)
+        public async Task<T> GetByIdAsync(int id)
             => await _context.Set<T>().FindAsync(id);
 
         public void Update(T entity)
